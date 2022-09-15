@@ -1,0 +1,97 @@
+:root {
+	--primary-clr: #006cec;
+	--secondary-clr: #ec8000;
+	--light-clr: #fff;
+
+	/*State coloros*/
+	--success-clr: #33b469;
+	--warning-clr: #ebbc2e;
+	--info-clr: #2f80ed;
+	--error-clr: #ed3a3a;
+
+	/*Buttons color*/
+	--btn-clr: var(--primary-clr);
+	--btn-hover: #0054b8;
+	--btn-disable: #dddddd;
+
+	/*Gradients*/
+	--gradient-pink: linear-gradient(
+		59.68deg,
+		#ff5858 -17.3%,
+		rgba(255, 200, 200, 0.7) 116.57%
+	);
+	--gradient-blue: linear-gradient(
+		59.44deg,
+		#00d2ff -23.58%,
+		rgba(58, 123, 213, 0) 123.69%
+	);
+	--gradient-yellow: linear-gradient(
+		60.06deg,
+		#ff930f -11.48%,
+		rgba(255, 249, 91, 0) 159.3%
+	);
+	--gradient-grey: linear-gradient(
+		58.78deg,
+		#000428 -7.55%,
+		rgba(0, 78, 146, 0) 123.4%
+	);
+
+	/*Text color*/
+	--text-clr-main: #262424;
+
+	/*Background color*/
+	--bg-clr-300: #eeeeee;
+	--bg-clr-200: #f3f3f3;
+	--bg-clr-100: #f7f7f7;
+
+	/*Gray colors*/
+	--clr-grey-400: #a7a7a7;
+	--clr-grey-300: #bebebe;
+	--clr-grey-200: #cfcfcf;
+	--clr-grey-100: #e3e3e3;
+
+	/*Font size*/
+	--fs-display-xxl: 4rem;
+	--fs-display-xl: 3.5rem;
+
+	--fs-h1: 3rem;
+	--fs-h2: 2.5rem;
+	--fs-h3: 2rem;
+	--fs-h4: 1.75rem;
+	--fs-h5: 1.5rem;
+	--fs-h6: 1.25rem;
+
+	--fs-subtitle-1: 1.125rem;
+	--fs-subtitle-2: 1rem;
+
+	--fs-body-main: 1rem;
+	--fs-body-adaptive: 0.875rem;
+
+	--fs-btn-lg: 1.125rem
+	--fs-btn-reg: 1rem;
+	--fs-btn-sm: 0.875rem;
+
+	--fs-caption: 0.75rem;
+
+	/*Font Weightfs-*/
+	--fw-display-xxl: 900;
+	--fw-display-xl: 800;
+
+	--fw-h1: 700;
+	--fw-h2: 700;
+	--fw-h3: 700;
+	--fw-h4: 700;
+	--fw-h5: 700;
+	--fw-h6: 700;
+
+	--fw-subtitle-1: 500;
+	--fw-subtitle-2: 400;
+
+	--fw-body-main: 400;
+	--fw-body-adaptive: 400;
+
+	--fw-btn-reg: 500;
+	--fw-btn-sm: 400;
+
+	--fw-caption: 400;
+}

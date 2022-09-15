@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import './variables';
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--bg-clr-200);
+	font-size: var(--fs-body-main);
+}
+button,
+a {
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin-inline: auto;
+}
+.content {
+	max-width: 1400px;
+	margin: 0 0 0 250px;
+	padding: 30px;
+	transition: 0.2s;
+	&_full {
+		margin: 0;
+	}
+
+	@media screen and (max-width: 1023px) {
+		margin: 0;
+	}
+}
+
+/*********FLEX**********/
+.flex-columns {
+	display: flex;
+	flex-direction: column;
+}
+
+/****GRID********/
+.inner-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 58px;
+}
+.grid-center {
+	display: grid;
+	align-items: center;
+}
+
+/******HEADINGS*******/
+.heading-h1 {
+	font-size: var(--fs-h1);
+	font-weight: var(--fw-h1);
+}
+.heading-h2 {
+	font-size: var(--fs-h2);
+	font-weight: var(--fw-h2);
+}
+.heading-h3 {
+	font-size: var(--fs-h3);
+	font-weight: var(--fw-h3);
+}
+.heading-h4 {
+	font-size: var(--fs-h4);
+	font-weight: var(--fw-h4);
+}
+.heading-h5 {
+	font-size: var(--fs-h5);
+	font-weight: var(--fw-h5);
+}
+.heading-h6 {
+	font-size: var(--fs-h6);
+	font-weight: var(--fw-h6);
+}
+
+/*****Text fonts*******/
+
+/********BUTTONS***********/
