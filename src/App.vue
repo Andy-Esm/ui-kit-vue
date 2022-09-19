@@ -1,7 +1,7 @@
 <script setup>
-import LayoutHeader from '@/components/layout/Header.vue';
-import LayoutSidebar from '@/components/layout/Sidebar.vue';
-import { ref } from 'vue';
+import LayoutHeader from "@/components/layout/Header.vue";
+import LayoutSidebar from "@/components/layout/Sidebar.vue";
+import { ref } from "vue";
 
 const isOpenMenu = ref(false);
 
@@ -12,27 +12,19 @@ const toggleMenu = () => {
 
 <template>
 	<div>
-		<div
-			class="sidebar-toggle"
-			@click="toggleMenu"
-		>
-			&#5125;
-		</div>
+		<div class="sidebar-toggle" @click="toggleMenu">&#5125;</div>
 		<layout-header />
 		<layout-sidebar :openSidebar="isOpenMenu" />
-		<div
-			class="content"
-			:class="{ content_full: !isOpenMenu }"
-		>
+		<div class="content" :class="{ content_full: !isOpenMenu }">
 			<router-view />
 		</div>
 	</div>
 </template>
 
 <style lang="scss">
-@import './styles/reset';
-@import './styles/variables';
-@import './styles/global';
+@import "@/styles/reset";
+@import "@/styles/variables";
+@import "@/styles/global";
 
 .sidebar-toggle {
 	position: fixed;

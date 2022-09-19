@@ -34,7 +34,10 @@ a {
 	display: flex;
 	flex-direction: column;
 }
-
+.flex {
+	display: flex;
+	gap: 24px;
+}
 
 /****GRID********/
 .inner-grid {
