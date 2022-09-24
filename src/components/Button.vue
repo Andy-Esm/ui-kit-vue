@@ -5,9 +5,9 @@
 				'btn',
 				`btn--${size}`,
 				`btn--${color}`,
-				{ 'btn--outline': outlined },
-				{ 'btn--disabled': disabled },
-				{ 'btn--icon': icon },
+				{'btn--outline': outlined},
+				{'btn--disabled': disabled},
+				{'btn--icon': icon},
 			]"
 			@click="clickOnButton"
 		>
@@ -47,6 +47,7 @@
 		},
 	});
 	const emit = defineEmits(['click']);
+
 	const clickOnButton = () => {
 		emit('click');
 	};
@@ -75,7 +76,7 @@
 			color: var(--primary-clr);
 
 			&:hover {
-				background-color: var(--btn-clr);
+				background-color: var(--btn-hover);
 				color: var(--light-clr);
 			}
 		}
@@ -88,6 +89,9 @@
 		&--disabled {
 			background-color: var(--btn-disable);
 			cursor: default;
+			&:hover {
+				background-color: var(--btn-disable);
+			}
 		}
 
 		&--sm {

@@ -1,5 +1,5 @@
 :root {
-	--primary-clr: #006cec;
+	--primary-clr: #27c499;
 	--secondary-clr: #ec8000;
 	--light-clr: #fff;
 
@@ -10,39 +10,24 @@
 	--error-clr: #ed3a3a;
 
 	/*Buttons color*/
-	--btn-clr: var(--primary-clr);
-	--btn-hover: #0054b8;
+	--btn-clr: #27c499;
+	--btn-hover: #80d0c7;
 	--btn-disable: #dddddd;
 
 	/*Gradients*/
-	--gradient-pink: linear-gradient(
-		59.68deg,
-		#ff5858 -17.3%,
-		rgba(255, 200, 200, 0.7) 116.57%
-	);
-	--gradient-blue: linear-gradient(
-		59.44deg,
-		#00d2ff -23.58%,
-		rgba(58, 123, 213, 0) 123.69%
-	);
-	--gradient-yellow: linear-gradient(
-		60.06deg,
-		#ff930f -11.48%,
-		rgba(255, 249, 91, 0) 159.3%
-	);
-	--gradient-grey: linear-gradient(
-		58.78deg,
-		#000428 -7.55%,
-		rgba(0, 78, 146, 0) 123.4%
-	);
+	--gradient-pink: linear-gradient(59.68deg, #ff5858 -17.3%, rgba(255, 200, 200, 0.7) 116.57%);
+	--gradient-blue: linear-gradient(59.44deg, #00d2ff -23.58%, rgba(58, 123, 213, 0) 123.69%);
+	--gradient-yellow: linear-gradient(60.06deg, #ff930f -11.48%, rgba(255, 249, 91, 0) 159.3%);
+	--gradient-grey: linear-gradient(58.78deg, #000428 -7.55%, rgba(0, 78, 146, 0) 123.4%);
 
 	/*Text color*/
-	--text-clr-main: #262424;
+	--text-clr-main: #f3f3f3;
 
 	/*Background color*/
 	--bg-clr-300: #eeeeee;
 	--bg-clr-200: #f3f3f3;
 	--bg-clr-100: #f7f7f7;
+	--bg-clr-dark: #222423;
 
 	/*Gray colors*/
 	--clr-grey-400: #a7a7a7;

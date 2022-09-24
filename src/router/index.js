@@ -1,7 +1,8 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
+import {createRouter, createWebHashHistory} from 'vue-router';
 import Home from '@/views/Home.vue';
 import Typography from '@/views/Typography.vue';
 import Buttons from '@/views/Buttons.vue';
+import Checkbox from '@/views/Checkbox.vue';
 
 const router = createRouter({
 	history: createWebHashHistory(),
@@ -20,6 +21,11 @@ const router = createRouter({
 			path: '/buttons',
 			name: 'buttons',
 			component: Buttons,
+		},
+		{
+			path: '/checkbox',
+			name: 'checkbox',
+			component: Checkbox,
 		},
 	],
 });

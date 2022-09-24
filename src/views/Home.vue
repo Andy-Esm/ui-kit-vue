@@ -7,7 +7,7 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-.heading {
-	text-align: center;
-}
+	.heading {
+		text-align: center;
+	}
 </style>
